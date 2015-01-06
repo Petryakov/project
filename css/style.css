@@ -1,0 +1,52 @@
+body {
+	position: relative;
+	border: 1px solid black;
+	/* для фиксированной верстки */
+	margin: 0 auto;
+	width: 1020px; 
+}
+
+header {
+	/* фоновая картинка-логотип */
+	background-image: url(../img/logo/logo.png); 
+	background-position-x: 40px;
+	background-repeat: no-repeat;
+	height: 48px;
+	margin-top: 40px;
+
+	/* рамка */
+	position: relative;
+}
+
+/* header form input[search] {
+	position: absolute;
+	left: 260px;
+	top: 30px;li
+	height: 48px;
+} */
+
+input[type="text"] {
+	/* поиск */
+	height: 48px;
+	width: 400px;
+
+	position: absolute;
+	left: 350px;
+	padding: 0 0 0 40px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	background-image: url(../img/search_icon.png);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 10px;
+}
+
+input[name="search"] {
+	width: 40px;
+	background: 0;
+	border: 1px solid black;
+	position: absolute;
+	left: 750px;
+	background-position-y: center;
+		height: 48px;
+}
